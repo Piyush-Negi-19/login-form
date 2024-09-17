@@ -1,0 +1,247 @@
+body {
+  font-family: Arial;
+  background-color: black;
+  /* margin-bottom: 1000px; */
+}
+
+button {
+  cursor: pointer;
+}
+
+span {
+  cursor: pointer;
+}
+
+.main-container {
+  display: inline-block;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cross {
+  margin-top: 10px;
+  margin-left: 350px;
+  margin-right: 50px;
+}
+
+.Sign-up {
+  margin-left: 50px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+  /* line-height: 20px; */
+  /* display: inline-block; */
+}
+
+.already {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 125px;
+  margin-bottom: 30px;
+}
+
+span {
+  color: rgb(35, 204, 35);
+}
+
+.first-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+
+.Google-button {
+  /* width: 152.03px; */
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 24.18px 5px 24.18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+.Google-button img {
+  margin-left: 20px;
+}
+
+.Facebook-button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+.Facebook-button img {
+  object-fit: cover;
+  object-position: center;
+  margin-left: 20px;
+  width: 30px;
+  height: 32px;
+}
+
+.second-button-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Github-button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 25.85px 5px 25.85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+.Github-button img {
+  margin-left: 20px;
+  width: 30px;
+  height: 32px;
+}
+
+.Feide-button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px 17.93px 5px 17.93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 3px;
+}
+
+.Feide-button img {
+  object-fit: cover;
+  object-position: center;
+  margin-left: 45px;
+  width: 30px;
+  height: 32px;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  margin-bottom: 14px;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .data input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.data input[type=text]:focus {
+  border: 3px solid green;
+} */
+
+.data input {
+  margin-top: 6px;
+  margin-bottom: 2px;
+  padding: 12px;
+  padding-right: 120px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  /* -webkit-transition: 0; */
+  /* transition: border 0,
+              margin 0,
+              outline 0; */
+  /* transition: 0.5s; */
+  outline: none;
+}
+
+.data input:focus {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  border: 3px solid green;
+  /* border: 2px solid green; */
+}
+
+.signup-button {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-button button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 127px;
+  font-weight: bold;
+}
+
+.signup-button button:active {
+  opacity: 0.7;
+}
+
+.Terms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Terms p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.Terms span {
+  color: rgba(11, 11, 238, 0.842);
+  text-decoration: underline;
+}
+
+.Terms span:active {
+  color: green;
+}
+
+.check {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.check input {
+  accent-color: green;
+}
+
+.check span {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
